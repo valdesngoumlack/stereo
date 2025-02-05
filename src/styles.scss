@@ -1,1 +1,32 @@
 /* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "../ flaticon/flaticon-uicons/css/all/all";
+
+
+.bg-primary{
+    @apply bg-[#EFF0F9]
+}
+
+.text-primary{
+    @apply text-[#EFF0F9]
+}
+
+.border-primary{
+    @apply border-[#EFF0F9]
+}
+
+
+.bg-secondary{
+    @apply bg-[#FE553E]
+}
+
+.text-secondary{
+    @apply text-[#FE553E]
+}
+
+.border-secondary{
+    @apply border-[#FE553E]
+}
